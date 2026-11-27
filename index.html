@@ -7,5 +7,89 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="site-header">
+        <div class="brand">
+            <img src="img/logo.png" alt="Logo des Kaffeewerk 42" class="logo">
+            <h1>Kaffeewerk 42</h1>
+        </div>
+        <nav class="main-nav" aria-label="Hauptnavigation">
+            <ul class="nav-list">
+                <li><a href="#ueber-uns">Über uns</a></li>
+                <li><a href="#angebot">Angebot</a></li>
+                <li><a href="#oeffnungszeiten">Öffnungszeiten</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="ueber-uns" class="section about">
+            <h2>Über uns</h2>
+            <div class="section-content">
+                <img src="img/laura.jpg" alt="Laura K., Gründerin des Kaffeewerk 42" class="section-image">
+                <p>Laura K. hat jahrelang als Informatikerin gearbeitet und dabei unzählige Stunden in Cafés verbracht, mit Laptop und viel zu kaltem Kaffee. Auf einer Reise durch Kolumbien besuchte sie kleine Kaffeefarmen und lernte, wie viel Sorgfalt in jeder Bohne steckt. Zurück in der Schweiz eröffnete sie das Kaffeewerk 42: einen Ort mit gutem Kaffee, schnellem WLAN und Platz zum Durchatmen. Ihr Motto: Guter Kaffee braucht Zeit, und du auch.</p>
+            </div>
+        </section>
+
+        <section id="angebot" class="section offering">
+            <h2>Angebot</h2>
+            <div class="section-content">
+                <img src="img/innenraum.jpg" alt="Gemütlicher Innenraum des Kaffeewerk 42" class="section-image">
+                <ul class="offer-list">
+                    <li>Espresso, Cappuccino und Flat White aus fair gehandelten Bohnen</li>
+                    <li>Hafer- und Mandelmilch ohne Aufpreis</li>
+                    <li>Hausgemachte Gipfeli und Bananenbrot</li>
+                    <li>Ruhige Arbeitsplätze mit Steckdosen und WLAN</li>
+                    <li>Studi- und Lernenden-Rabatt: 10 % mit Ausweis</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="oeffnungszeiten" class="section opening-hours">
+            <h2>Öffnungszeiten</h2>
+            <table class="hours-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Tag</th>
+                        <th scope="col">Öffnungszeit</th>
+                        <th scope="col">Hinweis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Montag–Freitag</td>
+                        <td>07:00–18:30 Uhr</td>
+                        <td>Ab 14 Uhr Ruhezone im Obergeschoss</td>
+                    </tr>
+                    <tr>
+                        <td>Samstag</td>
+                        <td>08:30–17:00 Uhr</td>
+                        <td>Brunch bis 12 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Sonntag</td>
+                        <td>geschlossen</td>
+                        <td>–</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="kontakt" class="section contact">
+            <h2>Kontakt</h2>
+            <address class="contact-details">
+                <p>Kaffeewerk 42<br>
+                Bahnhofstrasse 42<br>
+                4600 Olten</p>
+                <p>Telefon: 062 000 42 42</p>
+                <p>E-Mail: <a href="mailto:hallo@kaffeewerk42.example">hallo@kaffeewerk42.example</a></p>
+            </address>
+            <p>Grössere Gruppe oder Lernabend geplant? Schreiben Sie uns eine E-Mail, wir reservieren gerne einen Tisch.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Kaffeewerk 42 (fiktives Unternehmen)</p>
+    </footer>
 </body>
 </html>
