@@ -1,0 +1,42 @@
+•	Das verwendete KI-Tool
+
+-Chatgpt für die Bilderstellung
+-Claude für die Prompts
+
+
+•	Ihre Prompts für Logo, Foto von Laura K. und Foto vom Innenraum
+
+1. Logo
+
+Erstelle ein modernes, minimalistisches Logo für eine Kaffeebar namens «Kaffeewerk 42». Das Logo kombiniert eine stilisierte Kaffeetasse oder Kaffeebohne mit der Zahl 42. Flaches Design, klare Linien, keine Verläufe. Farben: dunkles Kaffeebraun und ein warmer Akzent in Karamell oder Terrakotta auf hellem, cremefarbenem Hintergrund. Der Schriftzug «Kaffeewerk 42» ist gut lesbar in einer modernen, serifenlosen Schrift. Das Logo soll jung, einladend und ruhig wirken und Studierende sowie junge Berufstätige ansprechen. Quadratisches Format, zentriert.
+
+2. Foto von Laura K. hinter der Theke
+
+Realistisches Foto einer freundlichen Frau Mitte 30 mit schulterlangen Haaren, die als Barista hinter der Holztheke einer modernen, hellen Kaffeebar steht. Sie trägt eine braune Schürze über einem schlichten Shirt und bereitet lächelnd einen Cappuccino mit Latte Art zu. Neben ihr steht eine Siebträger-Espressomaschine, im Hintergrund sieht man Regale mit Kaffeebohnen und Tassen. Warmes, natürliches Tageslicht, gemütliche und einladende Stimmung, leichte Unschärfe im Hintergrund. Querformat.
+
+3. Foto vom Innenraum
+
+Realistisches Foto vom Innenraum einer modernen, gemütlichen Kaffeebar in einer Schweizer Kleinstadt. Grosse Fenster mit viel Tageslicht, Holztische, bequeme Stühle und eine Sitzbank mit Kissen. An einigen Tischen gibt es sichtbare Steckdosen, eine Person arbeitet ruhig am Laptop. Grünpflanzen, warme Pendelleuchten, Farben in Crème, Holz und Kaffeebraun. Die Stimmung ist ruhig, entspannt und einladend, ein Ort zum Arbeiten und Abschalten. Querformat, keine Schrift im Bild.
+
+
+•	Mindestens einen Prompt, den Sie verbessern mussten, mit kurzer Notiz, was am ersten Ergebnis nicht passte
+
+1. Logo Anpassung
+
+Erstelle ein fröhliches, modernes Logo für die Kaffeebar «Kaffeewerk 42». Ein kleines, sympathisches Kaffeebohnen-Maskottchen mit Kopfhörern sitzt entspannt auf einer grossen, fetten Zahl 42 und hält eine Tasse. Flacher Illustrationsstil mit kräftigen Konturen. Farben: Kaffeebraun, warmes Korallenrot als Akzent, Crème als Hintergrund. Daneben steht der Schriftzug «Kaffeewerk 42», exakt so geschrieben, in einer runden, freundlichen Schrift. Es soll jung, lustig und einladend wirken, ideal für Studierende. Quadratisches Format.
+
+Begründung der Änderung: 
+Der Prompt vom Logo musste angepasst werden. Es war mir zu langweilig. 
+
+
+•	Ihr Farbkonzept mit den Hex-Werten
+
+Hintergrund:      Crème           #FBF1E1
+Text:             Espressobraun   #3E2215
+Akzent:           Korallenrot     #E8664A
+Hover/Highlight:  Dunkles Koralle #C2462E
+Fläche:           Milchkaffee     #F1DFC4
+
+•	Ihre Begründung der Farbwahl in 2 bis 3 Sätzen
+
+Die Farben stammen aus dem Logo: Crème und Espressobraun erinnern an Milchschaum und Kaffee und sorgen für eine warme, ruhige Atmosphäre, in der man gerne arbeitet. Das Korallenrot der Kopfhörer bringt einen frischen, jungen Akzent, der Studierende und junge Berufstätige anspricht. Dunkles Braun auf Crème ist zudem gut lesbar und angenehm für die Augen.
