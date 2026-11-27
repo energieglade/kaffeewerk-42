@@ -3,6 +3,36 @@
 -Chatgpt für die Bilderstellung
 -Claude für die Prompts
 
+1. Texte umschreiben (Claude)
+
+Die Texte zur Zielgruppe und Ausgangslage anpassen.
+(Dazu habe ich die Originaltexte aus dem Auftrag für Über uns, Angebot, Öffnungszeiten und Kontakt eingefügt.)
+
+Ergebnis: Die Texte sind jetzt durchgehend in der du-Form geschrieben und beziehen sich auf den Alltag der Zielgruppe (Vorlesung, Berufsschule, Meeting). Der Text «Über uns» ist in kurze Absätze aufgeteilt.
+
+2. HTML erstellen (VS Code)
+
+Erstelle den Inhalt für meine index.html für die fiktive Kaffeebar «Kaffeewerk 42» in Olten. Der <head> mit lang="de-CH", Titel und dem Link auf style.css ist schon vorhanden – ergänze nur den <body>. Anforderungen: Semantischer Aufbau mit <header>, <main>, vier <section> und <footer>. Im <header> das Logo (img/logo.png), ein <h1> «Kaffeewerk 42» und eine <nav> mit Links zu den Sprungmarken #ueber-uns, #angebot, #oeffnungszeiten und #kontakt. <h1> nur einmal, die Abschnitte verwenden <h2>. Alle Bilder mit sinnvollem alt-Attribut. Keine style-Attribute und kein <style> im HTML. Verwende sinnvolle Klassen. Abschnitte: Über uns mit Foto von Laura, Angebot als <ul> mit Foto vom Innenraum, Öffnungszeiten als <table> mit <th>, Kontakt mit mailto-Link. Footer: «© 2026 Kaffeewerk 42 (fiktives Unternehmen)».
+(Dazu habe ich die umgeschriebenen Texte für alle Abschnitte eingefügt.)
+
+3. CSS erstellen (VS Code)
+
+Erstelle jetzt die style.css für meine index.html. Definiere diese Farben als CSS-Variablen in :root und verwende sie im ganzen Design: --hintergrund: #FBF1E1; --text: #3E2215; --akzent: #E8664A; --hover: #C2462E; --flaeche: #F1DFC4. Der Header ist mit Flexbox gestaltet: Logo und Navigation nebeneinander. Die Navigationslinks verändern sich beim Darüberfahren (:hover), verwende dafür --hover. Bilder sind nie breiter als ihr Bereich (max-width: 100%). Die Tabelle ist übersichtlich gestaltet, die Kopfzeile in der Akzentfarbe. Eine moderne, gut lesbare Schrift, angenehme Abstände, abgerundete Ecken. Die Seite soll modern, einladend und ruhig wirken, passend für Studierende und junge Berufstätige in einer Kaffeebar. Bitte kommentiere den Code kurz auf Deutsch.
+
+4. Titelblatt und Abschnitte als eigene «Seiten» (VS Code)
+
+Gestalte meine index.html und style.css so um, dass die Website wie mehrere einzelne Seiten wirkt, aber technisch eine Seite mit Sprungmarken (id) bleibt. Startbereich als Titelblatt über den ganzen Bildschirm (100vh) mit dem Innenraum-Foto im Hintergrund und einer dunklen Überlagerung. In der Mitte Logo, <h1> «Kaffeewerk 42», der Slogan «Guter Kaffee braucht Zeit – und du auch.» und ein Button «Entdecken», der zu #ueber-uns springt. Die Abschnitte füllen jeweils mindestens den ganzen Bildschirm (min-height: 100vh) und haben abwechselnd die Hintergrundfarben --hintergrund und --flaeche. Beim Scrollen rasten die Abschnitte ein (scroll-snap) und die Navigation springt sanft (scroll-behavior: smooth). Die Navigation bleibt oben fixiert. Weiterhin gilt: semantischer Aufbau, <h1> nur einmal, alt-Attribute, keine Styles im HTML.
+
+5. Bildpfade korrigieren (VS Code)
+
+Die Bilder werden nicht angezeigt, weil sie die Endung .png haben und nicht .jpg. Bitte ändere in index.html und style.css alle Bildpfade auf: img/logo.png, img/laura.png und img/innenraum.png.
+
+Notiz: Die KI hatte die Bildpfade mit .jpg erstellt, meine Bilder sind aber .png. Deshalb wurden sie nicht angezeigt. Ich habe den Fehler im Browser bemerkt und korrigieren lassen.
+
+6. Responsive / Media Query (VS Code)
+
+Mach meine Website responsive. Ergänze dafür in style.css eine Media Query für Bildschirme unter 600 px Breite (@media (max-width: 600px)). Im Header stehen Logo und Navigation untereinander (flex-direction: column). Alle Bilder sind nie breiter als der Bildschirm (max-width: 100%; height: auto). Die Abschnitte dürfen auf dem Handy höher als der Bildschirm sein, damit kein Text abgeschnitten wird. Schalte scroll-snap auf dem Handy aus. Die fixierte Navigation soll nicht zu viel Platz einnehmen. Schriftgrössen und Abstände etwas verkleinern, die Tabelle muss lesbar bleiben. Ändere nichts am Design für grosse Bildschirme. Kommentiere die Media Query kurz auf Deutsch.
+
 
 •	Ihre Prompts für Logo, Foto von Laura K. und Foto vom Innenraum
 
