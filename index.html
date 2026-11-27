@@ -10,7 +10,7 @@
     <header class="site-header">
         <div class="brand">
             <img src="img/logo.png" alt="Logo des Kaffeewerk 42" class="logo">
-            <h1>Kaffeewerk 42</h1>
+            <span class="brand-name">Kaffeewerk 42</span>
         </div>
         <nav class="main-nav" aria-label="Hauptnavigation">
             <ul class="nav-list">
@@ -23,23 +23,38 @@
     </header>
 
     <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <img src="img/logo.png" alt="Logo des Kaffeewerk 42" class="hero-logo">
+                    <h1 id="hero-title">Kaffeewerk 42</h1>
+                    <p class="hero-slogan">Guter Kaffee braucht Zeit – und du auch.</p>
+                    <a href="#ueber-uns" class="hero-button">Entdecken</a>
+                </div>
+            </div>
+        </section>
+
         <section id="ueber-uns" class="section about">
-            <h2>Über uns</h2>
             <div class="section-content">
-                <img src="img/laura.jpg" alt="Laura K., Gründerin des Kaffeewerk 42" class="section-image">
-                <p>Laura K. hat jahrelang als Informatikerin gearbeitet und dabei unzählige Stunden in Cafés verbracht, mit Laptop und viel zu kaltem Kaffee. Auf einer Reise durch Kolumbien besuchte sie kleine Kaffeefarmen und lernte, wie viel Sorgfalt in jeder Bohne steckt. Zurück in der Schweiz eröffnete sie das Kaffeewerk 42: einen Ort mit gutem Kaffee, schnellem WLAN und Platz zum Durchatmen. Ihr Motto: Guter Kaffee braucht Zeit, und du auch.</p>
+                <img src="img/laura.png" alt="Laura K., Gründerin des Kaffeewerk 42" class="section-image">
+                <div class="text-content">
+                    <h2>Über uns</h2>
+                    <p>Laura K. kennt das Gefühl: Sie war jahrelang Informatikerin und sass unzählige Stunden mit dem Laptop in Cafés, meistens mit viel zu kaltem Kaffee und auf der Suche nach einer freien Steckdose. Auf einer Reise durch Kolumbien besuchte sie kleine Kaffeefarmen und merkte, wie viel Sorgfalt in jeder einzelnen Bohne steckt.</p>
+                    <p>Zurück in der Schweiz hat sie daraus ihren eigenen Ort gemacht: das Kaffeewerk 42. Hier gibt es richtig guten Kaffee, schnelles WLAN und genug Platz, um zwischen Vorlesung, Berufsschule und Meeting kurz durchzuatmen, konzentriert zu arbeiten oder einfach mal abzuschalten.</p>
+                    <p>Lauras Motto: <strong>Guter Kaffee braucht Zeit – und du auch.</strong></p>
+                </div>
             </div>
         </section>
 
         <section id="angebot" class="section offering">
             <h2>Angebot</h2>
             <div class="section-content">
-                <img src="img/innenraum.jpg" alt="Gemütlicher Innenraum des Kaffeewerk 42" class="section-image">
+                <img src="img/innenraum.png" alt="Gemütlicher Innenraum des Kaffeewerk 42" class="section-image">
                 <ul class="offer-list">
                     <li>Espresso, Cappuccino und Flat White aus fair gehandelten Bohnen</li>
-                    <li>Hafer- und Mandelmilch ohne Aufpreis</li>
-                    <li>Hausgemachte Gipfeli und Bananenbrot</li>
-                    <li>Ruhige Arbeitsplätze mit Steckdosen und WLAN</li>
+                    <li>Hafer- und Mandelmilch – ohne Aufpreis</li>
+                    <li>Hausgemachte Gipfeli und Bananenbrot für den kleinen Hunger</li>
+                    <li>Ruhige Arbeitsplätze mit Steckdosen und schnellem WLAN</li>
                     <li>Studi- und Lernenden-Rabatt: 10 % mit Ausweis</li>
                 </ul>
             </div>
@@ -59,7 +74,7 @@
                     <tr>
                         <td>Montag–Freitag</td>
                         <td>07:00–18:30 Uhr</td>
-                        <td>Ab 14 Uhr Ruhezone im Obergeschoss</td>
+                        <td>Ab 14 Uhr Ruhezone im Obergeschoss – ideal zum Lernen</td>
                     </tr>
                     <tr>
                         <td>Samstag</td>
@@ -69,7 +84,7 @@
                     <tr>
                         <td>Sonntag</td>
                         <td>geschlossen</td>
-                        <td>–</td>
+                        <td>Wir tanken Energie für die neue Woche</td>
                     </tr>
                 </tbody>
             </table>
@@ -78,13 +93,13 @@
         <section id="kontakt" class="section contact">
             <h2>Kontakt</h2>
             <address class="contact-details">
-                <p>Kaffeewerk 42<br>
-                Bahnhofstrasse 42<br>
-                4600 Olten</p>
+                <p>Du findest uns nur wenige Schritte vom Bahnhof Olten entfernt – perfekt für einen Kaffee zwischen zwei Zügen.</p>
+                <p><strong>Kaffeewerk 42</strong><br>
+                Bahnhofstrasse 42, 4600 Olten</p>
                 <p>Telefon: 062 000 42 42</p>
                 <p>E-Mail: <a href="mailto:hallo@kaffeewerk42.example">hallo@kaffeewerk42.example</a></p>
             </address>
-            <p>Grössere Gruppe oder Lernabend geplant? Schreiben Sie uns eine E-Mail, wir reservieren gerne einen Tisch.</p>
+            <p>Du planst einen Lernabend oder kommst mit einer grösseren Gruppe? Schreib uns eine E-Mail, wir reservieren dir gerne einen Tisch.</p>
         </section>
     </main>
 
