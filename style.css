@@ -335,3 +335,125 @@ img {
         font-size: 0.82rem;
     }
 }
+
+/* Responsive Anpassung für Smartphones unter 600 Pixel */
+@media (max-width: 600px) {
+    html {
+        scroll-snap-type: none;
+    }
+
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+        padding: 0.4rem 0.75rem;
+    }
+
+    .brand {
+        gap: 0.5rem;
+    }
+
+    .brand-name {
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 36px;
+    }
+
+    .main-nav {
+        width: 100%;
+    }
+
+    .nav-list {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 0.15rem;
+    }
+
+    .nav-list li {
+        flex: 1 1 auto;
+    }
+
+    .nav-list a {
+        min-height: 44px;
+        display: grid;
+        place-items: center;
+        padding: 0.45rem 0.35rem;
+        text-align: center;
+        font-size: 0.78rem;
+    }
+
+    .hero-overlay {
+        padding: 7.5rem 1rem 1.5rem;
+    }
+
+    .hero-logo {
+        width: 72px;
+    }
+
+    .hero h1 {
+        font-size: 2.35rem;
+    }
+
+    .hero-slogan {
+        margin: 0.85rem 0 1.25rem;
+        font-size: 1.05rem;
+    }
+
+    .hero-button {
+        padding: 0.65rem 1.2rem;
+        font-size: 0.95rem;
+    }
+
+    .hero,
+    .section {
+        scroll-snap-align: none;
+        scroll-snap-stop: normal;
+    }
+
+    .section {
+        min-height: 100vh;
+        height: auto;
+        align-items: start;
+        padding: 7.5rem 1rem 2rem;
+        scroll-margin-top: 70px;
+    }
+
+    .section h2,
+    .opening-hours h2,
+    .contact h2 {
+        margin-bottom: 1rem;
+        font-size: 1.75rem;
+    }
+
+    .section-content {
+        gap: 1rem;
+    }
+
+    .text-content p,
+    .offer-list li,
+    .contact-details p,
+    .contact > p {
+        font-size: 0.95rem;
+        line-height: 1.55;
+    }
+
+    .offer-list li {
+        margin-bottom: 0.55rem;
+    }
+
+    .hours-table th,
+    .hours-table td {
+        padding: 0.55rem 0.35rem;
+        font-size: 0.76rem;
+        overflow-wrap: anywhere;
+    }
+
+    .site-footer {
+        min-height: 12vh;
+        padding: 1rem;
+        font-size: 0.85rem;
+    }
+}
